@@ -1,0 +1,137 @@
+﻿============================================================
+    ADVANCED LOGO GENERATOR TOOL v2.0
+============================================================
+
+Options:
+  1. Interactive mode - Design your logo step by step
+  2. Random single logo - Generate one random logo
+  3. Batch generate - Generate multiple random logos
+  4. Demo all templates - Preview all templates
+  5. Demo all patterns - Preview all patterns
+  6. Demo color palettes - Preview all color presets
+  7. Generate from config file - Load and generate
+  8. Generate size variants - Multiple sizes
+  9. Custom composed logo - Layer-based composition
+  0. Exit
+Logo saved to: demo_templates/minimal_circle.png
+Logo saved to: demo_templates/shield_badge.png
+Logo saved to: demo_templates/geometric_abstract.png
+Logo saved to: demo_templates/monogram.png
+Logo saved to: demo_templates/tech_hexagon.png
+python : Traceback 
+(most recent call 
+last):
+At line:1 char:48
++ ... activate; $env:
+LOGO_CHOICE='4'; 
+python 
+logo_generator.py 
+2>&1 | Out-F ...
++                    
+                 ~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Traceba   
+ ck (most recent     
+call last)::Stri    
+ng) [], RemoteEx    
+ception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+  File "C:\Users\kai9
+9\.gemini\antigravity
+\scratch\logo_generat
+or\logo_generator.py"
+, line 1357, in 
+<module>
+    main()
+    ~~~~^^
+  File "C:\Users\kai9
+9\.gemini\antigravity
+\scratch\logo_generat
+or\logo_generator.py"
+, line 1271, in main
+    
+demo_all_templates()
+    
+~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kai9
+9\.gemini\antigravity
+\scratch\logo_generat
+or\logo_generator.py"
+, line 1174, in 
+demo_all_templates
+    surface = generat
+or.generate(config)
+  File "C:\Users\kai9
+9\.gemini\antigravity
+\scratch\logo_generat
+or\logo_generator.py"
+, line 750, in 
+generate
+    self._apply_templ
+ate(surface, config)
+    ~~~~~~~~~~~~~~~~~
+~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\kai9
+9\.gemini\antigravity
+\scratch\logo_generat
+or\logo_generator.py"
+, line 851, in 
+_apply_template
+    template_func(sur
+face, self.width, 
+self.height, colors, 
+text, fontfamily)
+    ~~~~~~~~~~~~~^^^^
+^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
+  File "C:\Users\kai9
+9\.gemini\antigravity
+\scratch\logo_generat
+or\logo_generator.py"
+, line 693, in 
+circular_badge
+    
+star.draw(surface)
+    
+~~~~~~~~~^^^^^^^^^
+  File "C:\Users\kai9
+9\.gemini\antigravity
+\scratch\logo_generat
+or\venv\Lib\site-pack
+ages\gizeh\gizeh.py",
+ line 175, in draw
+    
+self.draw_method(ctx)
+    
+~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\kai9
+9\.gemini\antigravity
+\scratch\logo_generat
+or\venv\Lib\site-pack
+ages\gizeh\gizeh.py",
+ line 472, in 
+new_draw
+    _set_source(ctx, 
+stroke)
+    ~~~~~~~~~~~^^^^^^
+^^^^^^^
+  File "C:\Users\kai9
+9\.gemini\antigravity
+\scratch\logo_generat
+or\venv\Lib\site-pack
+ages\gizeh\gizeh.py",
+ line 386, in 
+_set_source
+    elif len(src) == 
+4:  # RGBA
+         ~~~^^^^^
+TypeError: object of 
+type 'NoneType' has 
+no len()

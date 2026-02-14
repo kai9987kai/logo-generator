@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\kai99\.gemini\antigravity\scratch\logo_generator\gui.py", line 116, in _run_generation
+    surface = self.generator.generate(config)
+  File "C:\Users\kai99\.gemini\antigravity\scratch\logo_generator\logo_generator.py", line 750, in generate
+    self._apply_template(surface, config)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\kai99\.gemini\antigravity\scratch\logo_generator\logo_generator.py", line 851, in _apply_template
+    template_func(surface, self.width, self.height, colors, text, fontfamily)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kai99\.gemini\antigravity\scratch\logo_generator\logo_generator.py", line 693, in circular_badge
+    star.draw(surface)
+    ~~~~~~~~~^^^^^^^^^
+  File "C:\Users\kai99\.gemini\antigravity\scratch\logo_generator\venv\Lib\site-packages\gizeh\gizeh.py", line 175, in draw
+    self.draw_method(ctx)
+    ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\kai99\.gemini\antigravity\scratch\logo_generator\venv\Lib\site-packages\gizeh\gizeh.py", line 472, in new_draw
+    _set_source(ctx, stroke)
+    ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\kai99\.gemini\antigravity\scratch\logo_generator\venv\Lib\site-packages\gizeh\gizeh.py", line 386, in _set_source
+    elif len(src) == 4:  # RGBA
+         ~~~^^^^^
+TypeError: object of type 'NoneType' has no len()
